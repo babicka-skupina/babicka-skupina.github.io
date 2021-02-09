@@ -1,4 +1,13 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
